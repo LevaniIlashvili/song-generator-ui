@@ -4,7 +4,7 @@ import { Toolbar } from "./components/Toolbar";
 import { Gallery } from "./components/Gallery";
 import { Table } from "./components/Table";
 
-const API_URL = "https://localhost:7081";
+const API_URL = import.meta.env.VITE_API_URL;
 
 interface Song {
   index: number;
