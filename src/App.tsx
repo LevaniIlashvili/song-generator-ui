@@ -50,7 +50,7 @@ function App() {
   }, [region, seed, avgLikes, viewMode]);
 
   const randomizeSeed = () => {
-    const high = BigInt(Math.floor(Math.random() * 0xffffffff));
+    const high = BigInt(Math.floor(Math.random() * 0x7fffffff));
     const low = BigInt(Math.floor(Math.random() * 0xffffffff));
     const seed64 = (high << 32n) | low;
 
