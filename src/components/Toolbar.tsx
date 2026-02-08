@@ -86,7 +86,7 @@ export const Toolbar = ({
           <button
             key={mode}
             onClick={() => setViewMode(mode)}
-            className={`px-4 py-1 rounded-md text-sm font-medium capitalize transition ${
+            className={`px-4 py-1 rounded-md text-sm font-medium capitalize transition cursor-pointer ${
               viewMode === mode
                 ? "bg-white shadow-sm text-indigo-600"
                 : "text-gray-500"

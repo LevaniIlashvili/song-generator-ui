@@ -81,7 +81,7 @@ export const Table = ({
       <div className="p-4 border-t border-gray-100 flex justify-center">
         <button
           onClick={onNext}
-          className="bg-indigo-600 text-white px-6 py-2 rounded-full font-medium hover:bg-indigo-700 transition"
+          className="bg-indigo-600 text-white px-6 py-2 rounded-full font-medium hover:bg-indigo-700 transition cursor-pointer"
         >
           Load Next Page
         </button>
